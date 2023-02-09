@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Lato", "sans-serif", Arial;
+}
+*::-webkit-scrollbar {
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-app-color {
+  background-color: #f9f9f9;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.sidebar-closed {
+  left: -300px;
+}
+.navmenu-closed {
+  right: -300px;
+}
+.z-minus-1 {
+  z-index: -1;
+}
+@media (max-width: 600px) {
+  td {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-left: 100%;
+    position: relative;
+    padding: 7px !important;
+    font-size: 12px !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  tr {
+    position: relative;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    padding: 0 0 10px !important;
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+  thead {
+    display: none;
+  }
+  td::before {
+    content: attr(data-label);
+    padding-left: 15px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    color: black;
   }
 }
