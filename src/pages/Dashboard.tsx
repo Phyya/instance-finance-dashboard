@@ -31,7 +31,6 @@ const Dashboard = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  console.log(greetingWidth);
   return (
     <>
       <Header setSidebar={() => setOpen(false)} />
