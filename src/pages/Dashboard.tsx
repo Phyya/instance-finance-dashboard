@@ -13,7 +13,7 @@ import { formatDate, getGreeting } from "../utils/functions";
 const Dashboard = () => {
   const isMobile = useMediaQuery("(max-width: 900px)");
   const divRef = useRef<HTMLDivElement>(null);
-  const [greetingWidth, setGreetingWidth] = useState<number>(0);
+  const [greetingWidth, setGreetingWidth] = useState<number>(550);
   const [open, setOpen] = useState<boolean>(!isMobile);
   const [wallets, setWallets] = useState<boolean>(true);
 
@@ -30,7 +30,6 @@ const Dashboard = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   return (
     <>
       <Header setSidebar={() => setOpen(false)} />
