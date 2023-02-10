@@ -74,7 +74,7 @@ const Savings = () => {
 
               <span
                 className={`rounded-full w-[12px] h-[12px] ${
-                  d.status == "Completed" ? "bg-[#F55F0A]" : "bg-[#44CF95]"
+                  d.status == "Completed" ? "bg-[#44CF95]" : "bg-[#F55F0A]"
                 }`}
               ></span>
             </div>
