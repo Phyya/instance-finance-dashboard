@@ -24,7 +24,7 @@ const Savings = () => {
   const [ongoing, setOngoing] = useState(true);
   return (
     <div className="bg-white w-96 max-[900px]:w-full md:px-7 rounded-xl ">
-      <h1 className="max-[900px]:hidden">Savings</h1>
+      <h1 className="max-[900px]:hidden my-2 font-bold text-xl">Savings</h1>
       <div className="flex min-[900px]:flex-col border justify-between p-4 rounded-xl mt-3 items-center max-[500px]:flex-col max-[500px]:items-start">
         <div>
           <div className="flex items-center gap-3">

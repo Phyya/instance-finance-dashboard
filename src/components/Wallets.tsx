@@ -6,7 +6,7 @@ import dotted_line from "../assets/images/dotted_line.svg";
 
 const wallets = [
   {
-    balance: "5,000,000",
+    balance: "5,000,048",
     type: "USDT",
     rate: "548",
     flag: ngr_flag,
@@ -14,7 +14,7 @@ const wallets = [
     bgColor: "#E0E5FF",
   },
   {
-    balance: "5,000,000",
+    balance: "5,000,048",
     type: "USDT",
     rate: "548",
     flag: usa_flag,
@@ -22,7 +22,7 @@ const wallets = [
     bgColor: "#FFEEC5",
   },
   {
-    balance: "5,000,000",
+    balance: "5,000,048",
     type: "USDT",
     rate: "548",
     flag: usa_flag,
@@ -60,7 +60,7 @@ const Wallets = () => {
             </div>
             <img src={dotted_line} alt="dotted line" className="mt-6 mb-4" />
             <h2>Balance</h2>
-            <p className="font-bold text-xl">$5,000,000</p>
+            <p className="font-bold text-xl">${w.balance}</p>
 
             <p className="flex mt-8 mb-3 gap-2">
               <img src={w.flag} alt="flag" />
