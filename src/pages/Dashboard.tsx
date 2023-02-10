@@ -22,6 +22,7 @@ const Dashboard = () => {
   }, [isMobile]);
 
   useEffect(() => {
+    setGreetingWidth(divRef.current?.offsetWidth || 0);
     const handleResize = () => {
       setGreetingWidth(divRef.current?.offsetWidth || 0);
     };
@@ -30,6 +31,7 @@ const Dashboard = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  console.log(greetingWidth);
   return (
     <>
       <Header setSidebar={() => setOpen(false)} />
