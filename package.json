@@ -1,6 +1,6 @@
 {
   "name": "fuspay",
-  "homepage": "phyya.github.io/instance-finance-dashboard",
+  "homepage": "https://phyya.github.io/instance-finance-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
