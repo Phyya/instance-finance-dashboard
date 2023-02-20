@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/instance-finance-dashboard/static/css/main.0b47844e.css",
+    "main.js": "/instance-finance-dashboard/static/js/main.8c47c4ed.js",
+    "static/media/avatar.svg": "/instance-finance-dashboard/static/media/avatar.eb7c3168356a246c73ecbb38c6422cde.svg",
+    "static/media/squiggly.svg": "/instance-finance-dashboard/static/media/squiggly.8010d250be4593b02c1ae07b5bb72758.svg",
+    "static/media/usa_flag.svg": "/instance-finance-dashboard/static/media/usa_flag.202c652260bb529247e4289b7a7259d0.svg",
+    "static/media/logo.svg": "/instance-finance-dashboard/static/media/logo.30894ae58c42b17ea7bfff67a97c1ebd.svg",
+    "static/media/wallet_logo.svg": "/instance-finance-dashboard/static/media/wallet_logo.f69f26ca58ca0ae44b5343c0c46269b3.svg",
+    "static/media/savings.svg": "/instance-finance-dashboard/static/media/savings.0d634a8748f71177908b74d5fa5637c1.svg",
+    "static/media/overview.svg": "/instance-finance-dashboard/static/media/overview.5f4b6ded99725e84631ab693ef2f410e.svg",
+    "static/media/Notification.svg": "/instance-finance-dashboard/static/media/Notification.84a60b994a45294e700181536680b3a1.svg",
+    "index.html": "/instance-finance-dashboard/index.html",
+    "static/media/Logout.svg": "/instance-finance-dashboard/static/media/Logout.674729715844cce4ece90334b2e9f7c5.svg",
+    "static/media/downwards.svg": "/instance-finance-dashboard/static/media/downwards.725ee6807917e924299754d97d2ba7d0.svg",
+    "static/media/calendar.svg": "/instance-finance-dashboard/static/media/calendar.8c6388982e7b405a75729915bfb49128.svg",
+    "static/media/profile.svg": "/instance-finance-dashboard/static/media/profile.43e8296ca958630fcc434e100c13cda0.svg",
+    "static/media/ngr_flag.svg": "/instance-finance-dashboard/static/media/ngr_flag.a9e077e92e6a8d79156e84d6f9c3eaf7.svg",
+    "static/media/dotted_line.svg": "/instance-finance-dashboard/static/media/dotted_line.f67bf4dc55c4cdd184e924ba0fee8fea.svg",
+    "main.0b47844e.css.map": "/instance-finance-dashboard/static/css/main.0b47844e.css.map",
+    "main.8c47c4ed.js.map": "/instance-finance-dashboard/static/js/main.8c47c4ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b47844e.css",
+    "static/js/main.8c47c4ed.js"
+  ]
+}
